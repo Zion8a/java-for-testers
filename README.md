@@ -108,3 +108,35 @@ Focus:
 - int = whole number
 - double = decimal number
 - boolean = true/false
+
+## Week 02 - Variables and data types
+
+I learned how to use basic Java data types:
+
+- String for text
+- int for whole numbers
+- double for decimal numbers
+- boolean for true/false values
+
+Files:
+
+- UserProfile.java
+- TestDataExample.java
+
+QA reflection:
+
+Variables are similar to test data.
+
+Different data types can represent different kinds of input:
+
+- String can represent text fields
+- int can represent numeric input
+- double can represent prices, scores or measurements
+- boolean can represent yes/no choices or checkboxes
+
+I also learned that `"49"` and `49` are not the same thing in Java.
+
+- `"49"` is text
+- `49` is a number
+
+This matters when testing input validation.
