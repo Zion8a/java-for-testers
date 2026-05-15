@@ -140,3 +140,59 @@ I also learned that `"49"` and `49` are not the same thing in Java.
 - `49` is a number
 
 This matters when testing input validation.
+
+## Week 03 - If statements and decisions
+
+I learned how to use if statements in Java.
+
+Files:
+
+- AgeCheck.java
+- AgeCategory.java
+- LoginCheck.java
+
+Key concepts:
+
+- if
+- else
+- else if
+- comparison operators
+- boolean conditions
+- && for AND logic
+- equals() for comparing text
+
+QA reflection:
+
+If statements are closely connected to test design.
+
+They make it possible to define rules such as:
+
+- under 18 = Child
+- 18 and above = Adult
+- under 65 = Adult
+- 65 and above = Senior
+- correct username and password = Login successful
+- invalid username or password = Login failed
+
+I practiced boundary value analysis with age values:
+
+- 17
+- 18
+- 64
+- 65
+
+I also practiced positive and negative test data for login:
+
+- valid username and valid password
+- valid username and invalid password
+- invalid username and valid password
+- empty username
+- empty password
+
+This helped me connect Java logic to:
+
+- input
+- business rules
+- expected results
+- actual results
+- test cases
