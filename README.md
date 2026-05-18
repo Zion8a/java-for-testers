@@ -240,3 +240,41 @@ This connects directly to test design:
 - negative tests
 
 I also learned that logic inside a method can later be tested with automated tests, for example with JUnit.
+
+## Week 05 - Loops
+
+I learned how to use loops in Java.
+
+Files:
+
+- SimpleLoop.java
+- AgeLoop.java
+- AgeCategoryLoop.java
+- LoginLoop.java
+
+Key concepts:
+
+- for loop
+- enhanced for loop
+- array
+- index
+- repeated execution
+- multiple test data values
+
+QA reflection:
+
+Loops are important for testing because they make it possible to run the same logic against multiple test values.
+
+Examples:
+
+- testing several age values
+- testing boundary values
+- testing several login combinations
+- running positive and negative test data in one execution
+
+This connects to:
+
+- regression testing
+- data-driven testing
+- test automation
+- repeated test execution
