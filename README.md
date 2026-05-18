@@ -196,3 +196,47 @@ This helped me connect Java logic to:
 - expected results
 - actual results
 - test cases
+## Week 04 - Methods
+
+I learned how to create and use methods in Java.
+
+Files:
+
+- AgeMethod.java
+- AgeCategoryMethod.java
+- LoginMethod.java
+
+Key concepts:
+
+- method
+- parameter
+- return value
+- input
+- output
+- reusable logic
+- testable code
+
+QA reflection:
+
+Methods are important because they make code easier to test.
+
+A method can take input and return output.
+
+Examples:
+
+- age 17 returns Child
+- age 18 returns Adult
+- age 65 returns Senior
+- valid login data returns Login successful
+- invalid login data returns Login failed
+
+This connects directly to test design:
+
+- test data
+- expected result
+- actual result
+- boundary values
+- positive tests
+- negative tests
+
+I also learned that logic inside a method can later be tested with automated tests, for example with JUnit.
