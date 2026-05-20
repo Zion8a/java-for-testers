@@ -278,3 +278,45 @@ This connects to:
 - data-driven testing
 - test automation
 - repeated test execution
+## Week 06 - Arrays and lists
+
+I learned how to use arrays and ArrayList in Java.
+
+Files:
+
+- ArrayExample.java
+- ArrayLoopExample.java
+- InvalidUsernames.java
+- ArrayListExample.java
+- LoginTestDataList.java
+
+Key concepts:
+
+- array
+- index
+- enhanced for loop
+- ArrayList
+- add()
+- get()
+- size()
+- test data collections
+
+QA reflection:
+
+Arrays and lists are useful for handling multiple test data values.
+
+I practiced:
+
+- storing several usernames
+- looping through test data
+- testing empty strings
+- testing whitespace
+- comparing array syntax with ArrayList syntax
+- running several login combinations from test data lists
+
+This connects to:
+
+- data-driven testing
+- regression testing
+- test automation
+- reusable test data
